@@ -11,6 +11,14 @@ Neste repositório encontrará alguns exemplos simples sobre JS
 - Console.log
 - Variáveis
 
+## Extensões VSCode
+Code Runner
+Code Time
+EJS language support
+Git Graph
+StandardJS
+Material Icon Theme
+
 ### Links:
 - [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [W3 School](https://www.w3schools.com/js/)
