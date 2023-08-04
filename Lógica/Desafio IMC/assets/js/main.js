@@ -1,14 +1,18 @@
-function imc() {
-    const form = document.querySelector('.form');
+const form = document.querySelector('.form');
+form.addEventListener('submit', imc);
 
-
-    function recebeEvento(evento) {
+function imc(evento) {
 
         evento.preventDefault();
-
-        const peso = form.querySelector('.peso');
-        const altura = form.querySelector('altura')
+        const ipeso = form.querySelector('#peso');
+        const ialtura = form.querySelector('#altura');
         
+        const peso = Number(ipeso.value);
+        const altura = Number(ialtura.value*100);
+
+        console.log(peso);
+        console.log(altura);
+
         var calculo = peso/altura
         var resultado
 
@@ -37,10 +41,10 @@ function imc() {
             return `Dados inválidos`;
         }
 
-        console.log(resultado);
-    };
+        //Inves de retornar o valor e o resultado, fazer outra função com os resultados e imprimir no html
 
-    form.addEventListener('submit', recebeEvento);
-    
-};
-imc();
+        function imprimiResultado(imc) {
+            
+            
+        }
+    };
