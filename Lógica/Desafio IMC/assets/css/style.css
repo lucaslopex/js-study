@@ -75,3 +75,8 @@ form button:hover {
 form button:active {
     background-color: var(--primaycolor-active);
 }
+
+.resultado-imc {
+    font-size: 20px;
+    padding: 30px 0px 0px 20px;
+}
